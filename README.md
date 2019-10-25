@@ -16,3 +16,13 @@ deste trabalho tornando isto uma tarefa bastante trivial,
  lista de mapeamento contém elementos do tipo Rule que 
  é justamente a regra que liga uma url com uma função 
  Python em nosso projeto."
+ 
+ "Views precisam retornar um objeto do tipo Response ou 
+ uma tupla formada por até 3 elementos, um body que pode 
+ ser um objeto serializável como por exemplo um texto, 
+ um inteiro representando o código de status HTTP e 
+ um dicionário de headers, sendo que os dois ultimos 
+ elementos são opcionais."
+ 
+ "Retornar uma tupla de 3 elementos, no formato
+  (string, status_code, headers_dict)"
