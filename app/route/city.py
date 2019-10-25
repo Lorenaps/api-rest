@@ -1,10 +1,31 @@
 from flask import Flask, request, render_template
+from app.controller.controller_city import Controller_City
 
 app = Flask("app")
+controller = Controller_City()
 
-@app.route("/dados/<cidade>")
-def get_dados_cidade(cidade):
-    cidade = request.args.get("cidade")
+@app.route("/city/")
+def get_cities(cidade):
 
-    return render_template("lista_de_noticias.html", noticias=noticias), 200
+    # controller.get_cities()
+    cidades = list()
 
+    return cidades
+
+@app.route("/city/<city>")
+def get_city(cidade):
+
+    city = request.args.get("city")
+    # controller.get_city(city)
+    dados_cidade = list()
+
+    return dados_cidade
+
+@app.route("/city/number/<int: number>")
+def get_city(cidade):
+
+    city = request.args.get("number")
+    # controller.get_city(city)
+    dados_cidade = list()
+
+    return dados_cidade
