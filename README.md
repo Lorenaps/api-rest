@@ -15,3 +15,4 @@ Referências e links interessantes:
 - [Bruno Cezar Rocha - What the Flask? Pt-1 Introdução ao desenvolvimento web com Python](http://pythonclub.com.br/what-the-flask-pt-1-introducao-ao-desenvolvimento-web-com-python.html)
 - [Jessica Temporal - Fazendo deploy de uma API para o Heroku](https://jtemporal.com/deploy-flask-heroku/)
 - [Flask’s documentation](https://flask.palletsprojects.com/en/1.1.x/)
+- [Flask factories](https://flask.palletsprojects.com/en/1.0.x/patterns/appfactories/)
