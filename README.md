@@ -16,3 +16,4 @@ Referências e links interessantes:
 - [Jessica Temporal - Fazendo deploy de uma API para o Heroku](https://jtemporal.com/deploy-flask-heroku/)
 - [Flask’s documentation](https://flask.palletsprojects.com/en/1.1.x/)
 - [Flask factories](https://flask.palletsprojects.com/en/1.0.x/patterns/appfactories/)
+- [Explore Flask](https://exploreflask.com/en/latest/index.html)
