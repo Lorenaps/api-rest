@@ -17,3 +17,4 @@ Referências e links interessantes:
 - [Flask’s documentation](https://flask.palletsprojects.com/en/1.1.x/)
 - [Flask factories](https://flask.palletsprojects.com/en/1.0.x/patterns/appfactories/)
 - [Explore Flask](https://exploreflask.com/en/latest/index.html)
+- [Flask-MongoEngine](http://docs.mongoengine.org/projects/flask-mongoengine/en/latest/)
